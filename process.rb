@@ -53,8 +53,6 @@ def process_track_start_time(doc, offset)
 end
 
 def  process_track_point_times(doc, offset)
-  track_time = doc.css("gpx trk > time")
-  track_time.first.content = convert_to_utc(track_time.text, offset)
   times = doc.css('trkpt time')
   times.each do |time|
       local_time = time.text
