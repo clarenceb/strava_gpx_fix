@@ -1,5 +1,8 @@
-GPX FIX
--------
+STRAVA GPX FIX
+--------------
+
+Fix GPX files (change UTC to local time) for importing to Strava after exporting from Runkeeper.
+Note: Only tested with Runkeeper exported GPX files and with only 1 lap in the file.
 
 Use this tool to fix your GPX files before uploading to Strava if you find the date/times are off.
 
