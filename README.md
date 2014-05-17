@@ -37,13 +37,13 @@ Single GPX file:
 4. Copy the downloaded GPX file to the source directory
 5. Process the file to fix the incorrect timezone offset so Strava will display the activity date/time correctly:
 
-    `bundle exec ruby convert_gpx.rb <gpx_filename> "<local_offset_from_utc>"`
+`bundle exec ruby convert_gpx.rb <gpx_filename> "<local_offset_from_utc>"`
 
 or to use the GeoNames web service to figure out the timezone:
 
-   `bundle exec ruby convert_gpx.rb <gpx_filename>`
+`bundle exec ruby convert_gpx.rb <gpx_filename>`
 
-The processed file will be placed in the "processed" directory.
+The processed file will be placed in the `processed` directory.
 
 Multiple GPX files:
 -------------------
@@ -55,14 +55,14 @@ Multiple GPX files:
 5. Click "Export Data"
 6. After some time the "Download Now!" button will appear
 7. Download the zip file
-8. Unzip the contents to the "source" directory
+8. Unzip the contents to the `source` directory
 9. Process the directory of files to fix the incorrect timezone offset so Strava will display the activity date/time correctly:
 
-  bundle exec ruby convert_gpx.rb source "<local_offset_from_utc>"
+`bundle exec ruby convert_gpx.rb source "<local_offset_from_utc>"`
 
 or to use the GeoNames web service to figure out the timezone:
 
-   bundle exec ruby convert_gpx.rb source
+`bundle exec ruby convert_gpx.rb source`
 
 The processed files will be placed in the "processed" directory.
 
