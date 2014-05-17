@@ -4,9 +4,11 @@ GEM
     mini_portile (0.5.1)
     nokogiri (1.6.0)
       mini_portile (~> 0.5.0)
+    timezone (0.3.2)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   nokogiri
+  timezone

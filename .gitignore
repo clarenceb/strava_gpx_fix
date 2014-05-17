@@ -1,2 +1,6 @@
 *.gpx
 *.swp
+source/*.*
+processed/*.*
+.ruby-version
+config.yaml
